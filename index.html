@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form 🎓</title>
+    </head>
+    <body style="background-color: lightblue;">
+        <span style="color: blue; text-align: center; "><h1>Registration</h1></span>
+        <div align="center">
+            <form style="background-color: blueviolet;">
+                <p>First Name &nbsp;<input type="text" placeholder="First Name" name="f_name" required minlength="3" maxlength="12"/>
+                    <p>Last Name &nbsp;<input type="text" placeholder="Last Name" name="l_name"  minlength="3" maxlength="12"/>
+                    <p>Father's Name &nbsp;<input type="text" placeholder="Father Name" name="fa_name" required minlength="3" maxlength="12"/>  
+                    <p>Mother's Name &nbsp;<input type="text" placeholder="Mother's Name" name="m_name" required minlength="3" maxlength="12"/>      
+                    <p>Date of Birth &nbsp;<input type="date" name="dob" required></p>
+                    <span>Gender &nbsp; <span>Male<input type="radio" name="Male" required/> &nbsp;Female<input type="radio" name="Female" required/></span></span>
+                    <br/>
+                    <br/>
+                    <span>Mobile No &nbsp;<input type="number" placeholder="Mobile Number" name="mob_no" required minlength="10"></span>&nbsp;&nbsp;&nbsp;
+                    <span>Email ID &nbsp;<input type="email" placeholder="Email ID" name="email_id" required></span>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <span>City &nbsp;<select name="City" required>
+                        <option value="Select">Select</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Other's">Other's</option>
+                    </select></span> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <p>Marks<input type="range" minlength="0" maxlength="100" required name="rng">&nbsp;&nbsp;&nbsp;
+                    <span>Highest Degree &nbsp;<select name="Highest Degree" required>
+                        <option value="Select">Select</option>
+                        <option value="B.E/B.Tech">B.E/B.Tech</option>
+                        <option value="BCA">BCA</option>
+                        <option value="MCA">MCA</option>
+                        <option value="B.Sc(CS/IT)">B.Sc(CS/IT)</option>
+                        <option value="MBA">MBA</option>
+                        <option value="Common Degree">Common</option>
+                    </select></span>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <span>Upload Photo &nbsp;<input type="file" name="pic" required></span>
+                    <span>Upload Signature &nbsp;<input type="file" name="sign" required></span>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <p>Create Password &nbsp;<input type="password" name="pwd" minlength="8" maxlength="15" required/>
+                    <input type="checkbox" required name="clicking"/><span>&nbsp; Submitted Before clicking the Checkbox.</span>
+                    <br/>
+                    <br/>
+                    <br/>
+        
+                    <input type="submit" required name="sbmt"/>
+                    &nbsp;&nbsp;
+                    <input type="reset" required name="rst"/>
+            </form>
+        </div>
+    </body>
+</html>
